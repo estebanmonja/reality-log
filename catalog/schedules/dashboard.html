@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sprint Dashboard: Prototyping</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background: #111; color: #eee; padding: 20px; }
+        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        .status-bar { margin-bottom: 30px; color: #ffeb3b; }
+        
+        /* The Grid */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+            gap: 20px; 
+        }
+        
+        /* The Card */
+        .card { 
+            border: 1px solid #444; 
+            background: #222; 
+            padding: 15px; 
+            border-radius: 8px;
+            text-align: center;
+        }
+        .card h3 { margin: 10px 0; font-size: 1.1em; }
+        .card .status { 
+            display: inline-block; 
+            padding: 4px 8px; 
+            border-radius: 4px; 
+            font-size: 0.8em; 
+            background: #d32f2f; /* Red for Not Started */
+            color: white;
+        }
+        
+        /* Placeholder for Photo */
+        .photo-box {
+            width: 100%;
+            height: 150px;
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            margin-bottom: 10px;
+            border: 1px dashed #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🧠 Reality Log // Prototype Board</h1>
+    <div class="status-bar">⚡ STATUS: BUILDING (Deadline: Jan 03)</div>
+
+    <div class="grid">
+        <div class="card"><div class="photo-box">Pending</div><h3>Forma Uno</h3><span class="status">To Build</span></div>
+        <div class="card"><div class="photo-box">Pending</div><h3>Forma Dos</h3><span class="status">To Build</span></div>
+        <div class="card"><div class="photo-box">Pending</div><h3>Forma Siete</h3><span class="status">To Build</span></div>
+        <div class="card"><div class="photo-box">Pending</div><h3>Forma Ocho</h3><span class="status">To Build</span></div>
+        <div class="card"><div class="photo-box">Pending</div><h3>Forma Nueve</h3><span class="status">To Build</span></div>
+
+        <div class="card"><div class="photo-box">Pending</div><h3>Phone Stand</h3><span class="status">To Build</span></div>
+        <div class="card"><div class="photo-box">Pending</div><h3>QR Cards</h3><span class="status">To Build</span></div>
+
+        <div class="card"><div class="photo-box">Pending</div><h3>Casablanca Sign</h3><span class="status">To Build</span></div>
+    </div>
+
+</body>
+</html>
